@@ -11,13 +11,13 @@
 
 Because otherwise, you need to type again and again "admin/admin" or "demo/demo" when developing locally and trying to log-in to local Camunda Webapp.
 
-## Main Features
+## Feature
 
-Allows auto-login by the user configured in the properties.
+Allows Camunda WebApp auto-login by the user configured in the application properties.
 
 ## Usage
 
-Put the following dependency on your classpath:
+Assuming you are using Camunda Spring Boot Starter, put the following dependency on your classpath:
 
 ```xml
 <dependency>
