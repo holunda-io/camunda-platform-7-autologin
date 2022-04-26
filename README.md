@@ -49,9 +49,10 @@ camunda:
     login:
       enabled: true                     # enables the feature, disabled by default
       user-id: admin                    # user id of the user, defaults to 'nobody'
-      camunda-context-path: /some-path  # path camunda webapp bound to, defaults to /camunda
-      create-if-absent: true            # will create a dummy user using internal identity service, defaults to false
-      random-password: false            # flag to control the password of the auto-generated-user, defaults to true. If false is selected, the password is equals to user id.             
+      camunda-context-path: /some-path  # path camunda webapp bound to, defaults to '/camunda'
+      create-if-absent: true            # will create a dummy user using internal identity service, defaults to 'false'
+      random-password: false            # flag to control the password of the auto-generated-user, defaults to 'true'. 
+                                        # If false is selected, the password is equals to user id.             
 ```
 
 ## License
@@ -62,6 +63,4 @@ This library is developed under Apache 2.0 License.
 
 ## Contribution
 
-If you want to contribute to this project, feel free to do so. 
-Start with [Contributing guide](http://holunda.io/camunda-bpm-correlate/snapshot/developer-guide/contribution.html).
-
+If you are missing a feature, you are welcome to contribute by filing an issue or providing a pull-request.
