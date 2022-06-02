@@ -2,6 +2,7 @@
 
 *Auto-login feature for development*
 
+[![stable](https://img.shields.io/badge/lifecycle-STABLE-green.svg)](https://github.com/holisticon#open-source-lifecycle)
 [![Build Status](https://github.com/holunda-io/camunda-platform-7-autologin/workflows/Development%20branches/badge.svg)](https://github.com/holunda-io/camunda-platform-7-autologin/actions)
 [![sponsored](https://img.shields.io/badge/sponsoredBy-Holisticon-RED.svg)](https://holisticon.de/)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.holunda/camunda-platform-7-autologin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/holunda-io/camunda-platform-7-autologin)
