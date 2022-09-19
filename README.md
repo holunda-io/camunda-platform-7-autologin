@@ -5,7 +5,7 @@
 [![stable](https://img.shields.io/badge/lifecycle-STABLE-green.svg)](https://github.com/holisticon#open-source-lifecycle)
 [![Build Status](https://github.com/holunda-io/camunda-platform-7-autologin/workflows/Development%20branches/badge.svg)](https://github.com/holunda-io/camunda-platform-7-autologin/actions)
 [![sponsored](https://img.shields.io/badge/sponsoredBy-Holisticon-RED.svg)](https://holisticon.de/)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.holunda/camunda-platform-7-autologin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/holunda-io/camunda-platform-7-autologin)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.holunda/camunda-platform-7-autologin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.holunda/camunda-platform-7-autologin)
 ![Compatible with: Camunda Platform 7](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%207-26d07c)
 
 ## Why should you use it?
