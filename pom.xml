@@ -4,7 +4,7 @@
 
   <groupId>io.holunda</groupId>
   <artifactId>camunda-platform-7-autologin</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <packaging>jar</packaging>
   <name>${project.artifactId}</name>
   <url>https://github.com/holunda-io/camunda-platform-7-autologin/</url>
@@ -15,7 +15,7 @@
     <java.version>11</java.version>
     <kotlin.version>1.6.21</kotlin.version>
     <spring-boot.version>2.6.7</spring-boot.version>
-    <camunda.version>7.17.0</camunda.version>
+    <camunda.version>7.19.0</camunda.version>
   </properties>
 
   <dependencyManagement>
