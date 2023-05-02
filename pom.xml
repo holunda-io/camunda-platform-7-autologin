@@ -15,7 +15,7 @@
     <java.version>11</java.version>
     <kotlin.version>1.6.21</kotlin.version>
     <spring-boot.version>2.6.7</spring-boot.version>
-    <camunda.version>7.17.0</camunda.version>
+    <camunda.version>7.19.0</camunda.version>
   </properties>
 
   <dependencyManagement>
