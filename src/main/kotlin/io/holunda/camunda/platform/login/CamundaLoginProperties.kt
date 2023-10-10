@@ -8,7 +8,6 @@ import java.util.*
 /**
  * Configuration properties to be supplied via properties or yaml file.
  */
-@ConstructorBinding
 @ConfigurationProperties(prefix = "camunda.bpm.login")
 data class CamundaLoginProperties(
   /**

@@ -3,6 +3,7 @@
 *Auto-login feature for development*
 
 [![stable](https://img.shields.io/badge/lifecycle-STABLE-green.svg)](https://github.com/holisticon#open-source-lifecycle)
+[![Camunda 7.20](https://img.shields.io/badge/Camunda%20Version-7.20-orange.svg)](https://docs.camunda.org/manual/7.20/)
 [![Build Status](https://github.com/holunda-io/camunda-platform-7-autologin/workflows/Development%20branches/badge.svg)](https://github.com/holunda-io/camunda-platform-7-autologin/actions)
 [![sponsored](https://img.shields.io/badge/sponsoredBy-Holisticon-RED.svg)](https://holisticon.de/)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.holunda/camunda-platform-7-autologin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.holunda/camunda-platform-7-autologin)
@@ -24,7 +25,7 @@ Assuming you are using Camunda Spring Boot Starter, put the following dependency
 <dependency>
   <groupId>io.holunda</groupId>
   <artifactId>camunda-platform-7-autologin</artifactId>
-  <version>0.0.1</version>
+  <version>0.1.0</version>
 </dependency>
 ```
 

@@ -1,5 +1,7 @@
 package io.holunda.camunda.platform.login
 
+import jakarta.annotation.PostConstruct
+import jakarta.servlet.DispatcherType
 import mu.KLogging
 import org.camunda.bpm.engine.ProcessEngine
 import org.camunda.bpm.engine.rest.security.auth.ProcessEngineAuthenticationFilter
@@ -10,8 +12,6 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.boot.web.servlet.FilterRegistrationBean
 import org.springframework.context.annotation.Bean
 import java.util.*
-import javax.annotation.PostConstruct
-import javax.servlet.DispatcherType
 
 /**
  * Auto configuration of the extension. Activates only if the 'camunda.bpm.login.enabled' is set to 'true'.
