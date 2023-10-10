@@ -1,12 +1,11 @@
 package io.holunda.camunda.platform.login
 
+import jakarta.servlet.http.HttpServletRequest
+import jakarta.servlet.http.HttpServletResponse
 import org.camunda.bpm.engine.ProcessEngine
 import org.camunda.bpm.engine.rest.security.auth.AuthenticationProvider
 import org.camunda.bpm.engine.rest.security.auth.AuthenticationResult
 import org.camunda.bpm.webapp.impl.security.auth.AuthenticationUtil
-import org.camunda.bpm.webapp.impl.security.auth.Authentications
-import javax.servlet.http.HttpServletRequest
-import javax.servlet.http.HttpServletResponse
 
 /**
  * Authentication provider retrieving the user id stored in the session. If none is found, falls back to the one provided on construction.
