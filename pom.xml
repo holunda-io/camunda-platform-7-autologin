@@ -11,7 +11,7 @@
 
   <groupId>io.holunda</groupId>
   <artifactId>camunda-platform-7-autologin</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1-SNAPSHOT</version>
 
   <name>camunda-platform-7-autologin</name>
   <description>Camunda Platform 7 Webapp auto-login.</description>
