@@ -1,8 +1,8 @@
 package io.holunda.camunda.platform.login
 
+import io.github.oshai.kotlinlogging.KotlinLogging
 import jakarta.annotation.PostConstruct
 import jakarta.servlet.DispatcherType
-import mu.KLogging
 import org.camunda.bpm.engine.ProcessEngine
 import org.camunda.bpm.engine.rest.security.auth.ProcessEngineAuthenticationFilter
 import org.camunda.bpm.spring.boot.starter.util.SpringBootProcessEnginePlugin
@@ -13,14 +13,14 @@ import org.springframework.boot.web.servlet.FilterRegistrationBean
 import org.springframework.context.annotation.Bean
 import java.util.*
 
+private val logger = KotlinLogging.logger {}
+
 /**
  * Auto configuration of the extension. Activates only if the 'camunda.bpm.login.enabled' is set to 'true'.
  */
 @EnableConfigurationProperties(value = [CamundaLoginProperties::class])
 @ConditionalOnProperty(value = ["camunda.bpm.login.enabled"], havingValue = "true", matchIfMissing = false)
 class CamundaLoginAutoConfiguration {
-
-  companion object : KLogging()
 
   @PostConstruct
   fun reportActivation() {

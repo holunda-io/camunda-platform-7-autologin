@@ -5,13 +5,13 @@
   <parent>
     <groupId>io.toolisticon.maven.parent</groupId>
     <artifactId>maven-parent-kotlin-base</artifactId>
-    <version>2023.9.1</version>
+    <version>2025.2.0</version>
     <relativePath/>
   </parent>
 
   <groupId>io.holunda</groupId>
   <artifactId>camunda-platform-7-autologin</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1</version>
 
   <name>camunda-platform-7-autologin</name>
   <description>Camunda Platform 7 Webapp auto-login.</description>
@@ -22,7 +22,7 @@
     <jdk.version>17</jdk.version>
 
     <spring-boot.version>3.1.4</spring-boot.version>
-    <camunda.version>7.20.0</camunda.version>
+    <camunda.version>7.22.0</camunda.version>
   </properties>
 
   <dependencyManagement>
@@ -45,7 +45,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>io.github.microutils</groupId>
+      <groupId>io.github.oshai</groupId>
       <artifactId>kotlin-logging-jvm</artifactId>
     </dependency>
 
