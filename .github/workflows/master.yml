@@ -15,7 +15,7 @@ jobs:
 
       # Restore the cache first
       - name: Cache .m2
-        uses: actions/cache@v1
+        uses: actions/cache@v4
         with:
           path: ~/.m2/repository
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
