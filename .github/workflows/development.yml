@@ -11,19 +11,10 @@ jobs:
     steps:
       # Checkout the code
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Expose branch name
         run: echo ${{ github.ref }}
-
-      # Setup the cache
-      - name: Cache .m2
-        uses: actions/cache@v1
-        with:
-          path: ~/.m2/repository
-          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
-          restore-keys: |
-            ${{ runner.os }}-maven
 
       # Setup JDK and Maven
       - name: Set up JDK 17
@@ -31,6 +22,8 @@ jobs:
         with:
           java-version: 17
           server-id: ossrh
+          distribution: temurin
+          cache: maven
           server-username: OSS_CENTRAL_USERNAME # env variable for Maven Central
           server-password: OSS_CENTRAL_PASSWORD # env variable for Maven Central
 
