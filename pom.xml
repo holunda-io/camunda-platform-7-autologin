@@ -21,7 +21,7 @@
     <java.version>17</java.version>
     <jdk.version>17</jdk.version>
 
-    <spring-boot.version>3.1.4</spring-boot.version>
+    <spring-boot.version>3.4.5</spring-boot.version>
     <camunda.version>7.22.0</camunda.version>
   </properties>
 

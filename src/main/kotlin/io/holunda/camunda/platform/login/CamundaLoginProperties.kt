@@ -2,7 +2,6 @@ package io.holunda.camunda.platform.login
 
 import org.camunda.bpm.engine.impl.persistence.entity.UserEntity
 import org.springframework.boot.context.properties.ConfigurationProperties
-import org.springframework.boot.context.properties.ConstructorBinding
 import java.util.*
 
 /**
