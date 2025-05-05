@@ -25,7 +25,7 @@ Assuming you are using Camunda Spring Boot Starter, put the following dependency
 <dependency>
   <groupId>io.holunda</groupId>
   <artifactId>camunda-platform-7-autologin</artifactId>
-  <version>0.1.3</version>
+  <version>2025.05.1</version>
 </dependency>
 ```
 
