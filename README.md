@@ -1,3 +1,9 @@
+# Relocation
+
+This project is relocated to https://github.com/holunda-io/c7 and will be developed further there.
+Last release produced from this location was 2025.05.1
+This repository will be archived soon.
+
 # Camunda Platform 7 WebApp Auto-Login
 
 *Auto-login feature for development*
@@ -62,7 +68,3 @@ camunda:
 [![Apache License 2](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 This library is developed under Apache 2.0 License.
-
-## Contribution
-
-If you are missing a feature, you are welcome to contribute by filing an issue or providing a pull-request.
