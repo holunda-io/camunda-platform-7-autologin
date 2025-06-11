@@ -1,11 +1,3 @@
-# Relocation
-
-This project is relocated to https://github.com/holunda-io/c7 and will be developed further there.
-Last release produced from this location was 2025.05.1
-This repository will be archived soon.
-
-# Camunda Platform 7 WebApp Auto-Login
-
 *Auto-login feature for development*
 
 [![stable](https://img.shields.io/badge/lifecycle-STABLE-green.svg)](https://github.com/holisticon#open-source-lifecycle)
@@ -14,6 +6,15 @@ This repository will be archived soon.
 [![sponsored](https://img.shields.io/badge/sponsoredBy-Holisticon-RED.svg)](https://holisticon.de/)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.holunda/camunda-platform-7-autologin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.holunda/camunda-platform-7-autologin)
 ![Compatible with: Camunda Platform 7](https://img.shields.io/badge/Compatible%20with-Camunda%20Platform%207-26d07c)
+
+# Relocation
+
+This project is **relocated** to https://github.com/holunda-io/c7 and **will be developed** further there.
+Last release produced from this location was **2025.05.1**
+This repository will be archived.
+
+# Camunda Platform 7 WebApp Auto-Login
+
 
 ## Why should you use it?
 
